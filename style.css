@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.back{
+    background-color: #EAF5FF;
+    height: 100%;
+    width: 1000px;
+}
+
+.back>.blue{
+    background-color: #59C5EF; 
+    margin-top: 0px;
+  
+}
+.blue>img{
+    background-color: rgb(255, 255, 255);
+}
+.back>.pink{
+    background-color:#D79DDE;   
+}
+.pink>img{
+    background-color: rgb(255, 255, 255);
+}
+.back>.white{
+    background-color: #FCFCFF;   
+}
+
+.back> div{
+    height: 230px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+img.octocat {
+    height: 200px;
+
+}
+h1{
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 50px;
+    color: #464864;
+    
+}
+h2{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    font-size: 20px;
+    color: #464864;   
+}
+h2>a{
+color: #B2F6F8;
+font-size: 20px;
+}
